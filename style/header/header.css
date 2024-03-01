@@ -1,0 +1,40 @@
+@import url(./nav/nav.css);
+header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../img/bg\ img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header .header_desc {
+  padding: 160px 200px 160px 0px;
+  color: #fff;
+}
+header .header_desc .nav_menu {
+  display: none;
+}
+header .header_desc .btn {
+  padding: 14px 30px;
+  background-color: #C9453B;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+}
+header .header_desc h2 {
+  width: 800px;
+  font-size: 56px;
+}
+header .header_desc p {
+  padding: 30px 0px 30px 0px;
+  width: 458px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@media (max-width: 860px) {
+  header {
+    background-position: right;
+  }
+}/*# sourceMappingURL=header.css.map */

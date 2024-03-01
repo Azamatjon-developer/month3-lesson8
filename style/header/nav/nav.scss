@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;
+    font-size: 16px;
+
+    .header_navbar{
+        display: flex;
+        align-items:center;
+        gap: 20px;
+        padding: 20px 0px;
+
+       
+
+        a{
+            color:#fff;
+        }
+    }
+    .btn{
+        padding: 14px 30px;
+        background-color: #C9453B;
+        border:none;
+        color:#fff;
+        border-radius: 8px;
+        cursor: pointer;
+        }
+}
+
+
+@media (max-width:860px) {
+
+    li{
+        display: none;
+    }
+    
+
+}
+

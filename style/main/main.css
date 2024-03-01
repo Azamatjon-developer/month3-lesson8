@@ -1,0 +1,81 @@
+main .container {
+  padding-top: 140px;
+  padding-left: 215px;
+}
+main .main-desc .main-cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main .main-desc h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 43px;
+}
+main .main-desc p {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px 0px 20px 0px;
+}
+
+.section-desc {
+  padding-top: 100px;
+  text-align: center;
+}
+.section-desc .desc-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+.section-desc h2 {
+  font-size: 43px;
+  font-weight: 500;
+  line-height: 60px;
+  padding-bottom: 20px;
+}
+
+.section-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+
+.section-news {
+  padding-top: 100px;
+}
+.section-news .news-desc {
+  text-align: center;
+}
+.section-news .news-desc p {
+  width: 581px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.section-news h2 {
+  font-size: 43px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+}
+
+.news-all {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 30px;
+}
+
+.news-left p {
+  width: 470px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.news-right {
+  display: flex;
+  gap: 23px;
+  padding: 20px 20px;
+}/*# sourceMappingURL=main.css.map */
